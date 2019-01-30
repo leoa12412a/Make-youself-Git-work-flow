@@ -15,7 +15,7 @@
         source ~/.bash_profile
         </br>
 # git hooks
-  git hooks是一個在某個事件發生時，會自動觸發hooks的腳本，腳本的內容都可以自行定義，你可以想像成每次你做commit，監聽commit的hook就會把你的資料勾過去檢察。而hooks裡面又分為 server(伺服器)端 跟 client(用戶)端 ，而在做git init 或是 git init --bare(遠端儲存庫)後，分別在/.git/hooks 和 /hooks裡面都有已經預設好的腳本，這是 Git 提供給我們的 sample script，讓我們參考用的，script 的檔名就是對應的事件，要使用hooks的時候只要把需要的副檔名(.sample)刪掉可以了。
+  git hooks是一個在某個事件發生時，會自動觸發hooks的腳本，腳本的內容都可以自行定義，你可以想像成每次你做commit，監聽commit的hook就會把你的資料勾過去檢查。而hooks裡面又分為 server(伺服器)端 跟 client(用戶)端 ，而在做git init 或是 git init --bare(遠端儲存庫)後，分別在/.git/hooks 和 /hooks裡面都有已經預設好的腳本，這是 Git 提供給我們的 sample script，讓我們參考用的，script 的檔名就是對應的事件，要使用hooks的時候只要把需要的副檔名(.sample)刪掉可以了。<br>
   ![image](https://github.com/leoa12412a/Make-youself-Git-work-flow/blob/master/hookfile.PNG)</br></br>
   
   
