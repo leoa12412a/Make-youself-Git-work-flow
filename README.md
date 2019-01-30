@@ -9,6 +9,6 @@
    1. 在/Users/user/Documents/gitScripts目錄下，建立一個git-refresh(你的指令)，檔案不需要副檔名</br>
       ![image]()</br></br>
    2. 將剛剛儲存檔案的路徑加入系統的環境路徑
-        export PATH=$PATH:/Users/user/Documents/gitScripts(位置資料放的位置改變)
+        export PATH=$PATH:/Users/user/Documents/gitScripts(位置隨資料位置改變)
    3. 給予資料可執行的權限(chmod +x git-refresh)並重新載入剛剛輸入的資料
         source ~/.bash_profile
