@@ -24,7 +24,7 @@
   主要分成用戶端和伺服器端兩大類
 
 
-   用戶端hooks
+   <h3>用戶端hooks</h3>
    
    1. pre-mommit
    
@@ -68,7 +68,7 @@
    
        pre-push會在已經更新remote資料但並未傳送資料時被調用，你可以在開始推送前利用此腳本來檢查你的提交
    
-   遠端伺服器hooks
+   <h3>遠端伺服器hooks</h3>
    
    遠端的hook除了要刪除副檔名(.sample)外，還需要給予可執行權限 chmod +x hooks  (hooks資料夾)
    
