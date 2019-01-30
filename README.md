@@ -6,7 +6,7 @@
   ![image]()</br></br>
 # 2.git custom commands
    custom command顧名思義就是自定義屬於自己的指令，關於如何設定自己的指令有3個步驟
-   1. 在/Users/user/Documents/gitScripts目錄下，建立一個git-refresh(你的指令)，檔案不需要副檔名
+   1. 在/Users/user/Documents/gitScripts目錄下，建立一個git-refresh(你的指令)，檔案不需要副檔名</br>
       ![image]()</br></br>
    2. 將剛剛儲存檔案的路徑加入系統的環境路徑
         export PATH=$PATH:/Users/user/Documents/gitScripts(位置資料放的位置改變)
